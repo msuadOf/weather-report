@@ -1,0 +1,11 @@
+#listcard {
+    overflow-x: auto;
+    list-style: none;
+    white-space:nowrap;
+    width: auto;
+
+}
+.itemcard { margin-left: 20px;
+float:left;
+        display: inline-block;
+}

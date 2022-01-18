@@ -1,0 +1,21 @@
+
+#todaylist {
+    /*overflow-x: auto;*/
+    /*list-style: none;*/
+    /*white-space:nowrap;*/
+    /*width: auto;*/
+
+    displey:-webkit-flex; display: flex; -webkit-flex-flow:row nowrap;
+    flex-flow:row nowrap; overflow-x: auto; list-style: none;
+    display: flex;justify-content: center ;
+}
+.todayitem {
+    margin-left: 80px;
+    float:left;
+    display: inline-block;
+    font-size: 200%;
+
+}
+.tips{
+    font-size: 1em;
+}
