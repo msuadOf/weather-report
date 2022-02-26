@@ -12,7 +12,7 @@ const {Meta} = Card;
 
 class WeatherData extends Component {
     render() {
-        const {city, data, aqi} = this.props
+        let {city, data, aqi} = this.props
         let datanew = {}
         if (data[0] === undefined) {
             return <div></div>
@@ -36,7 +36,7 @@ class WeatherData extends Component {
 
 
                     <li className={'todayitem'}>
-                        <h1>{data[0].tem}&deg;</h1>
+                        <h1>{(data[0].tem)=='null'?data[0].tem:data[0].tem1}&deg;</h1>
                         <div>今日{data[0].wea_day}</div>
                     </li>
 
